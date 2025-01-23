@@ -1,0 +1,18 @@
+window.onload = function(){
+let name = prompt("Pass là....");
+if (name && name.toLowerCase() === "chucmungvoiunammoinhiumaymannho"){
+    alert("Chúc bé có 1 cái Tết thật sum vầy đầm ấm bên gia đình và lun lun hạnh phúc cùng anh nhé ;3333");
+} else {
+    document.body.innerHTML = `
+    <div style="
+        font-family: Arial, sans-serif; 
+        color: red; 
+        text-align: center; 
+        font-size: 100px;">
+        Omg, tutu nhó zợ iu choa bé rì viu trc sơ sơ ó ;3<br>
+        Để 28 này anh mở cho cục bông nhó~
+        <p style="font-family: cursive">---Dũng đzai---</p>
+    </div>
+`;
+}
+};
